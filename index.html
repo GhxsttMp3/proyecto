@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercars & Bikes Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #e10600;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(225, 6, 0, 0.4);
+        }
+
+        section h2 {
+            color: #e10600;
+            margin-bottom: 10px;
+            transition: color 0.3s, letter-spacing 0.3s;
+        }
+
+        section h2:hover {
+            color: #ff4c4c;
+            letter-spacing: 2px;
+        }
+
+        section p {
+            line-height: 1.6;
+        }
+
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .video-container video {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(225, 6, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .video-container video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(225, 6, 0, 0.8);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Supercars & Bikes Showcase</h1>
+        <p>Highlighting some of the fastest and most iconic vehicles in the world</p>
+    </header>
+
+    <main>
+        <!-- Porsche 911 GT3 RS -->
+        <section>
+            <h2>Porsche 911 GT3 RS</h2>
+            <p>
+                The Porsche 911 GT3 RS is a track-focused supercar with a naturally aspirated 4.0-liter engine.
+                Delivering over 500 horsepower, it offers unmatched driving precision and aerodynamic mastery.
+            </p>
+            <div class="video-container">
+                <video controls autoplay muted loop>
+                    <source src="gt3rs.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- Lamborghini Aventador SVJ -->
+        <section>
+            <h2>Lamborghini Aventador SVJ</h2>
+            <p>
+                The Aventador SVJ is Lamborghini's extreme V12 beast. With over 770 horsepower, it accelerates from 0-60 mph
+                in just 2.8 seconds. Its aggressive aerodynamics and sharp design make it a legend on both track and road.
+            </p>
+            <div class="video-container">
+                <video controls autoplay muted loop>
+                    <source src="svj.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- Ford GT -->
+        <section>
+            <h2>Ford GT</h2>
+            <p>
+                The Ford GT is a modern American supercar inspired by the classic GT40. It combines a 3.5-liter twin-turbo V6
+                with advanced aerodynamics, producing around 660 horsepower and incredible cornering capabilities.
+            </p>
+            <div class="video-container">
+                <video controls autoplay muted loop>
+                    <source src="fordgt.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- Nissan 350Z -->
+        <section>
+            <h2>Nissan 350Z</h2>
+            <p>
+                The Nissan 350Z is a legendary Japanese sports car. Equipped with a 3.5-liter V6, it offers a balanced
+                rear-wheel-drive experience and remains popular among car enthusiasts and tuners.
+            </p>
+            <div class="video-container">
+                <video controls autoplay muted loop>
+                    <source src="350z.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- Yamaha R1 -->
+        <section>
+            <h2>Yamaha R1</h2>
+            <p>
+                The Yamaha R1 is a top-tier sportbike inspired by MotoGP technology. Its 998cc engine produces exceptional
+                power, while advanced electronics keep it controllable on both track and street rides.
+            </p>
+            <div class="video-container">
+                <video controls autoplay muted loop>
+                    <source src="r1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Supercars & Bikes Fanpage
+    </footer>
+</body>
+</html>
